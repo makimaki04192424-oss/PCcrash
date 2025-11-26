@@ -1,0 +1,32 @@
+:root{
+  --bg:#f7f9fc;
+  --card:#ffffff;
+  --accent:#0b63d0;
+  --text:#222;
+  --muted:#6b7280;
+  --pad:18px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+header{
+  background:linear-gradient(90deg,var(--accent),#0a84ff);
+  color:white;
+  padding:20px;
+}
+header h1{margin:0;font-size:1.4rem}
+nav{margin-top:10px}
+nav a{
+  color:rgba(255,255,255,0.9);
+  text-decoration:none;margin-right:14px;
+  font-weight:600;font-size:0.95rem;
+}
+main{max-width:900px;margin:28px auto;padding:18px}
+section{background:var(--card);padding:var(--pad);border-radius:8px;margin-bottom:14px;box-shadow:0 1px 4px rgba(16,24,40,0.06)}
+footer{max-width:900px;margin:0 auto;padding:12px;color:var(--muted);font-size:0.95rem}
+h2{margin-top:0;color:var(--accent)}
+ul,ol{margin:8px 0 0 1.2rem}
